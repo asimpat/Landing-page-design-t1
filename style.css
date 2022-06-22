@@ -1,0 +1,68 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Unica One', cursive;
+}
+
+/* navbar section  */
+
+nav {
+    font-size: 1.2rem;
+}
+
+nav .navbar-brand{
+    font-size: 1.7rem !important;
+    font-weight: 600;
+    color: #1dc9e3;
+}
+
+nav .navbar-brand span{
+    color: #535bd4;
+}
+
+/* hero section */
+
+.hero{
+    min-height: 90vh;
+    background-image: url(./images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: #061539f2;
+    color: white;
+}
+
+.hero .row {
+    min-height: 100vh;
+    align-items: center;
+}
+
+.hero h2{
+    font-size: 3rem;
+}
+
+.hero p{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.hero button{
+    padding: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    margin-top: 1rem;
+    background-color: #1dc9e3;
+    border: none;
+}

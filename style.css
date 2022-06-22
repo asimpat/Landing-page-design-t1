@@ -66,3 +66,60 @@ nav .navbar-brand span{
     background-color: #1dc9e3;
     border: none;
 }
+
+/* Section5 */
+
+.sectionfive{
+    background-color: darkblue;
+    min-height: 100vh;
+}
+.app_pricing h2 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 100;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    padding: 50px;
+    /* margin-bottom: 10px; */
+
+}
+h2::after {
+    display: block;
+    height: 1px;
+    background-color: white;
+    content: " ";
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.box{
+    gap: 1%;
+    
+}
+.box button{
+    border-radius: 20px;
+    position: relative;
+    top: 4rem;
+}
+.box button:hover{
+    background-color: blue;
+    border: 1px solid blue;
+}
+.font{
+    font-size: 248%;
+}
+@media (max-width:770px) {
+    .box{
+        display: block;
+        padding-bottom: 50px;
+    }
+    .middle1{
+        margin-bottom: 40px;
+    }
+    .middle{
+        margin-bottom: 40px;
+    }
+
+
+}
